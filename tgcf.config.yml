@@ -1,0 +1,15 @@
+forwards:
+  - source: -1001595409191
+    dest: [-1001402308006]
+
+
+show_forwarded_from: false
+
+plugins:
+  filter:
+    text:
+      blacklist: ["nope"]
+  replace:
+    text:
+      god: devil
+      tokyo: delhi
